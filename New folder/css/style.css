@@ -1,0 +1,43 @@
+.l1,.l2,.l3{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.l1{
+    background-image: url("../images/images.jpg");
+   z-index:1;
+    
+}
+.l2{
+    
+    background-image: url("../images/images1.jpg");
+    z-index: 2;
+}
+.l3{
+    background-image: url("../images/images2.jpg");
+    z-index: 3;
+}
+
+.l2 img{
+    width: 200px;
+    position: absolute;
+    left: 650px;
+    top: 171px;
+}
+.form-inline {
+    margin-left: 610px;
+    margin-top: 400px;
+    
+}
+button{
+    background-color: #377be8;
+    border: 1px solid #377be8;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    height: 38px;
+    top: 400px;
+    left: 830px;
+    op
+}
